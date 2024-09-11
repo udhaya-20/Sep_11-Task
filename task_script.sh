@@ -12,7 +12,7 @@ do
 	then
 		echo "Error: Password cannot be empty"
 	fi
-	if [ $user_name = "admin" -a $password = "Administrator123" ]
+	if [ $user_name = "admin" -o $user_name = "Developer" -a $password = "Administrator123" -o $password = "JavaPython@123" ]
 	then
 		echo "Successfully logged in to the user '$user_name' "
 		echo ""
