@@ -38,9 +38,12 @@ do
 				elif [ $age -ge 13 -a $age -le 19 ]
 				then
 					echo "You are an 'Teenager'"
-				elif [ $age -ge 20 ]
+				elif [ $age -ge 20 -a $age -le 60 ]
 				then 
 					echo "You are an 'Adult'"
+				elif [ $age -gt 60 ]
+				then
+					echo "You are in 'Oldage'"
 				else
 					echo "Error: Invalid Input"
 					exit 0
