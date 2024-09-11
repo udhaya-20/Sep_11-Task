@@ -21,7 +21,7 @@ do
 		then
 			echo "Error: Character cannot be empty"
 
-			elif [ $char = 'a' -o $char = 'e' -o $char = 'i' -o $char = 'o' -o $char = 'u' ]
+			elif [ $char = 'a' -o $char = 'A' -o $char = 'e' -o $char = 'E' -o $char = 'i' -o $char = 'I' -o $char = 'o' -o $char = 'O' -o $char = 'u' -o $char = 'U' ]
 			then
 				echo "Your charcter '$char' is vowel"
 				echo ""
